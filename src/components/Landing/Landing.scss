@@ -1,0 +1,9 @@
+@import '../../utils/helpers.scss';
+
+.Landing {
+  @include centered();
+
+  &__title {
+    @include heading();
+  }
+}

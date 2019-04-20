@@ -1,0 +1,29 @@
+@import '../../utils/helpers.scss';
+
+.Measurements {
+
+  &__title {
+    @include heading();
+  }
+
+  &__measurement {
+    @include text();
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  &__pagination{
+    margin-left: -12px;
+  }
+
+  &__weight {
+    @include text();
+    margin-right: 20px;
+  }
+
+  &__time {
+    @include text();
+    margin-right: 20px;
+  }
+}

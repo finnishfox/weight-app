@@ -1,0 +1,44 @@
+{
+  "name": "weightapp",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Daria Oshmarina",
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@material-ui/icons": "^3.0.2",
+    "axios": "^0.18.0",
+    "chart.js": "^2.8.0",
+    "moment": "^2.24.0",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-redux": "^6.0.1",
+    "react-router": "^4.4.0",
+    "react-router-dom": "^4.4.0",
+    "react-scripts": "2.1.8",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "typescript": "^3.3.3333"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "doc": "documentation build src/** -f html -o docs"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "documentation": "^9.3.1",
+    "nock": "^10.0.6",
+    "redux-mock-store": "^1.5.3"
+  }
+}

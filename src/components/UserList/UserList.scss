@@ -1,0 +1,21 @@
+@import '../../utils/helpers.scss';
+
+.UserList {
+    @include centered();
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &__pagination{
+        display: flex;
+        margin-left: -12px;
+    }
+
+    &__link{
+        @include text();
+    }
+
+    &__title{
+        @include heading();
+    }
+}
